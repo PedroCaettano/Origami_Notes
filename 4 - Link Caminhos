@@ -1,0 +1,17 @@
+//Existem dois tipos de caminhos: O Absoluto e o Relativo
+
+//Absoluto:
+<a href="https://www.origamid.com/cursos/">Origamid Cursos</a>
+// Usado pra arquivos externos ao nosso site
+
+//Relativo:
+<a href="/produtos/bicicletas.html">Bicicletas</a>
+// Usado para arquivos do site
+
+// 4.1 - Caminhos relativos
+
+// /index.html: Arquivo index.html no diretório raiz /.
+// /produtos/bicicletas.html: Arquivos bicicletas.html no diretório /produtos localizado na raiz.
+// index.html ou ./index.html: Arquivo index.html no diretório atual ./
+// ../index.html: Arquivo index.html um diretório anterior ao atual ../
+// ../../index.html: Arquivo index.html doid diretórios anteriores ao atual
