@@ -1,0 +1,60 @@
+ // tags são etiquetas usadas para marcar conteúdo dentro do HTML
+   // exemplo de tag:
+   <a href´="https://google.com">Google</a>
+
+   // sempre comece com a seta menor 
+   // códigos escritos em letra maíuscula são diferentes de códigos escritos em letra minuscula
+
+   // Atributos: Dão informações extras sobre uma tag para um navegador
+   // sempre escreva as pastas de forma simples com nomes simples e sem nomes exagerados
+
+   //exemplo de código/link na web:
+   <a heref="https:// google.com">Google</a>>
+
+   // tag usada pra inserir conteúdo, imagem, video. Usadas tbm para inserir semântica ao código
+   // se todo o código está com a mesma cor, há algum erro de sintaxe
+   // NOTA: ESPAÇO E QUEBRA DE LINHA GERALMENTE SÃO IGNORADOS.
+   
+   // SINTAXE BÁSICA:
+   // p: marca paragrafo
+   // a: marca um ink
+   // h1,h2,h3....h6: Marcam diferentes niveis de titulos.
+
+
+   // criando o código:
+   <h1>CURSOS ONLINE DE HTML E CSS</h1>
+   // obs: h1 é um elemento de bloco
+
+   <h2>HTML</h2>
+   <p>Curso de HTML, aprenda do zero</p>
+   <a href="html">Curso de HTML</a> 
+
+
+//Próxima estrutura:
+<h2>CSS</h2>
+   <p>Curso de CSS, aprenda do zero</p>
+   <a href="html">Curso de CSS</a> 
+
+   // estrutura de um documento HTML
+   <!DOCTYPE html>
+   // é aqui onde vamos começar a escrever de fato em HTML
+   <html>
+
+
+// body: usado para inserirmos todo o conhecimento no site
+
+//2.3 - Estrutura inicial de um documento de um documento html
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charser="UTF - 8">
+ <title>CURSOS DE HTML</title>
+ </head>
+ <BODY>
+    // <! -- h1 é o titulo de nível 1 -- > 
+    <h1>Cursos de HTML e CSS</h1>h1>
+
+ </BODY>
+
+</html>
