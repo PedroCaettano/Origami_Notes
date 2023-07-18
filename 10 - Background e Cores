@@ -1,0 +1,61 @@
+// background ou background-color: Muda a cor de fundo do elemento
+//Nota: O que é hexadecimal? É a cor representada através de um código de 6 caracteres que vão de 0 até F.
+
+// exemplo de código:
+h1{
+background: black;
+color: white;
+
+}
+
+a{
+background-color: seagreen;
+color: white;
+
+}
+
+// 10.1 - index
+<head>
+    <meta charset="UTF-8">
+    <title>Web</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Front End</h1>
+    <a href="/">Origamid</a>
+</body>
+
+</html>
+
+//style.css
+
+h1{
+background: red;
+}
+
+// forma diferente, mas que vamos usar no curso. | Exemplo
+h1{
+    background: #000000
+    color: #8844ee;               (ou podemos usar tbm color: rgb(0, 0, 0);)
+    }
+    
+
+a{
+background: seagreen;
+color: white;
+front-size: 30px;
+}
+
+// código que vamos usar pro curso
+h1{
+
+background: 40864fc;
+color: rgba(23, 167, 35, 0.5);
+}
+
+a{
+    background: seagreen;
+    color: white;
+    front-size: 30px;
+    }
