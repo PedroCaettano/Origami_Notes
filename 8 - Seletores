@@ -1,0 +1,66 @@
+// h1, p: A virgula permite selecionarmos multiplos elementos para a aplicação de um mesmo estilo.
+// p a: Seleciona o "a" que tiver um "p" como elemento pai (não precisa ser filho direto).
+
+//escrevendo um código com seletores:
+// usando código já estabelecido 
+<link rel="stylesheet" href="/style.cas" />
+
+//código que usaremos nessa aula (junto do código que iremos usar em conjunto):
+<!DOCTYPE html>
+<html>                                                            h1
+                                                                a {
+<head>                                                             color: red;
+<meta charset="UTF-8">                                             }
+<title>Carros e Bicicletas</title>                                     // deixando o "a" dentro do link de veja mais na cor preta:
+<link rel="stylesheet" href="/style.css">                        p a {
+<title>Bicicletas</title>                                          color: black;
+</head>                                                               }
+                                                                          
+<body>                                                             // formas comuns de selecionarmos elementos:
+<h1>Carros e Bicicletas</h1>                                       // o que é ID? Atributo HTML que adiciona um identidicador único na tag. Pode ser usado bi CSS para selecionarmos o elemento #nomeid
+<p>Veja mais <a href = "/"> produtos </a>></p>                     // exemplo em CSS:
+<a id = "introducao" href="produtos/carros.html">Carros</a>                          #logo {
+<a href="produtos/bicicletas.html">Bicicletas</a>                  color: gold;
+</body>                                                                   }
+
+</html>                                                             // Exemplo em HTML: 
+                                                                  <h1 id ="logo">Bikecraft</h1>
+
+// estudos de coloração e alteração usando seletores:
+// inserindo a clasificação . nos itens dentro do body, eles terão a cor que foi especificada pelo programador
+#introducao {
+ color: gold
+
+
+}
+.codigo {
+color blue;
+
+}
+
+.design{
+color: red;
+
+}
+
+// exemplo de códigos onde duas classes terão a mesma cor:
+#introducao {
+color: gold;
+}
+
+.codigo .design{
+color: blue;
+    
+}
+
+// inserindo cor no body:
+<body class = "codigo">                                                             
+    <h1 id="introducao">Carros e Bicicletas</h1>                              
+    <p>Veja mais <a href = "/"> produtos </a>></p>                    
+    <a class="design" href="produtos/carros.html">Carros</a>                          
+    <a class="design" href="produtos/bicicletas.html">Bicicletas</a>     
+    <h2 class="design">Curso de UX Design</h2>
+
+    </body>                                                                   
+    
+    </html> 
