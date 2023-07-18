@@ -1,0 +1,87 @@
+<DOCTYPE html>
+    <html>
+
+<head>
+<meta charset="UTF - 8">
+<title>Cinema</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<h1>Cinema</h1>
+<h2><a href="/estados/rj.html"> Rio de Janeiro</a></h2>>
+<h2><a href="/estados/rj.html"> São Paulo</a></h2>>
+</body>
+
+
+
+    </html>
+
+
+
+
+// 9.1 - Inserindo estados - rj
+<DOCTYPE html>
+    <html>
+
+<head>
+<meta charset="UTF - 8">
+<title>Rio de Janeiro</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<a href="/index.html">Inicio</a>
+    <h1>Rio de Janeiro</h1>
+    <p class="hoje">Tenet - 14:00 - Hoje</p>
+    <p class="amanha">O Castelo Animado - 18:30 - Amanhã</p>
+    <p class="amanha"> Doutor Estranho - 17:20 - Amanhã</p>
+</body>
+
+    </html>
+
+
+// 9.1.2 - Inserindo estados - sp
+<DOCTYPE html>
+    <html>
+
+<head>
+<meta charset="UTF - 8">
+<title>São Paulo</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<a href="/index.html">Inicio</a>
+    <h1>São Paulo</h1>
+    <p class="hoje">Tenet - 14:00 - Hoje</p>
+    <p class="amanha">O Castelo Animado - 18:30 - Amanhã</p>
+    <p class="amanha"> Doutor Estranho - 17:20 - Amanhã </p>
+</body>
+
+    </html>
+
+// 9.2 - style.css só pra testarmos as cores do código nos sites:
+.hoje{
+ color: darkred;
+
+}
+
+.amanha{
+color: darkblue;
+
+}
+
+a{
+text-decoration: none
+
+}
+
+h2 a {
+ color: deagreen;
+}
+
+p{
+font-size: 20px;
+
+}
