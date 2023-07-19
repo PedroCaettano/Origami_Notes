@@ -1,0 +1,80 @@
+// Fluxo do Layout: O fluxo do Layout no HTML ocorre conforme o modo de escrita definido. Por padrão de cima para baixo da esquerda para a direita.
+// span: Tag genérixa que não possui nenhum estilo pré-definido/semântica. É equivalente a uma div, mas sem o display block.
+
+// exemplo de texto:
+Texto direto no body
+<a href="/">Texto no link</a>
+<span>Texto no Span</span>
+<div>Texto para Div</div>
+Texto direto no Body 2
+<a href ="/">Texto para link 2</a>
+<span>Texto no Span 2</span>
+
+//Trabalhando com o código em index e style.css
+//Index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Posicionamento</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+Texto puro 
+
+
+
+
+<span> Novo texto Span</span>
+<a href="">Novo Link</a>
+<h1>Banana Frita com Pimentão</h1> 
+<strong>Esse é um texto em negrito</strong>
+<h1>Requeijão com alho refogado</h1>
+<span>Novo texto span</span>
+</body>    
+
+</html>
+
+
+//style.css
+h1{
+background: #ddd;
+width: 300px;
+
+}
+
+span,
+a,
+strong {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+div, h1, p{
+    border: 1px solid rgba(255, 0, 0, 0.5);
+
+
+}
+
+}
+
+
+//inline: Respeita o fluxo de escrita sem iniciar uma nova linha. Não é possível definir valores de width, height e margin (top/bottom) e etc. É o estilo padrão
+//block: Inicia uma nova linha e não permite que outros elementos sejam posicionados em sua linha. Aceita todas as propriedades do box model. Estilo inicial de elementos como h1,p, div e outros.
+//Exemplo de código:
+<h1> H1 BLOCK</h1>
+<a href="/">link inline</a>
+<span>Span Inline</span>
+<strong>Strong Inline</strong>
+<p> P BLOCK</p>
+
+<div>
+Esse é um texto com um
+ <div>elemento block</div>
+dentro dele.
+</div>
+
+// none: remove o elemento completamente da tela.
+// inline-block: O elemento continua inline, mas passa a receber as propriedades do box model.
+// Posicionamento: Para posicionamentos complexos, usamos as propriedades display grid(CSS Grid Layout) e flex (Flexbox) 
+
