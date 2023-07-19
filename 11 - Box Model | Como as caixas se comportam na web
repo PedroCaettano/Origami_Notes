@@ -1,0 +1,72 @@
+// Uma interface web é composta de diversas caixas que organizam o conteúdo
+   
+    // Como funciona:
+    // Content|Conteúdo: Define a largura inicial da caixa(salvo elementos de bloco)
+    // Padding|Preenchimento: Separa o conteúdo das bordas da caixa. É a margem interna.
+    // Border|Borda: Define borda para a caixa
+    // Margin|Margem: Define a distância entre uma caixa e outra
+    // Width|Largura: A largura total da caixa, por padrão é o somatório do conteúdo + padding(left/right) + border(left/right)
+
+    // Sobre Pixels:
+    // Unidade de referência: É a unidade de referência da Web, poias as telas são desenvolvidas em pixels.
+    // Monitores: Um monitor de: 3840 (largura em px) x 2160(altura em px) = 8.294.400
+   // Px em CSS: No caso de CSS, o pixel(px) é uma unidade de referência e não representa 1 pixel exato do seu dispositivo (é adaptável em relação à densidade da tela).
+
+   // A <div> é um elemento do bloco block genérico que serve para auxiliar no posicionamento dos elementos/conteúdo na tela. Existem tbm elementos semânticos como main, section, nav e outros que veremos em outras aulas.
+    // exemplo de código:
+    div {
+        background: #aaa;
+        width: 140px;
+        height: 80px;
+        border: 10px solid #111;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h1 {
+    background: #84e;
+    padding: 20px;
+    margin: 30px;
+
+    }
+
+  // 11.1 - aplicando div usando o cósigo presente no 10
+  // html
+  <head>
+    <meta charset="UTF-8">
+    <title>Web</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div></div>
+    <h1> Pipoca Salgada</h1>
+    <p>Cursos de CSS</p>
+    <a href="/">Origamid</a>
+    <div>Cursos de Javascrpit</div>
+    <button>clique</button>
+</body>
+ 
+</html>
+
+// style.css
+
+div {
+background: #aaa;
+// nota: Auto significa tamanho total do elemento pai
+width:140 px;
+height: 80px;
+padding: 20px;
+border:  10px solid #111;
+margin: 30px; 
+}
+
+body{
+    margin: 0px;
+}
+
+h1{
+background: #84e;
+padding: 20px;
+width: 100px;
+}
