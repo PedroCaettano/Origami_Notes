@@ -1,0 +1,39 @@
+// Cada navegador é diferente um do outros
+
+// Reset, Reboot e Normalize: Algumas soluções foram criadas para lidar com os estilos iniciais. O principal objetivo delas é reduzir a inconsistência entre os browsers.
+// Reset: Remove parte dos estilos musicais
+// Normalize: Normaliza os estilos iniciais entre os browsers sem remover os mesmos
+// Reboot: É uma mistura de reset e normalize ultilizada pelo Bootstrap
+
+///normalize.css
+
+// exemplo usando o style.css
+
+body{
+margin: 0px;
+
+}
+
+h1, h2,
+p {
+front-size: 16px; 
+front-weight: normal;
+margin: 0px;
+}
+
+
+h1{
+color: seagreen;
+
+}
+
+//inherit|herança: Existem propriedades do CSS que são passadas do pai para o filho como uma herança(inherit).
+// Exemplos? Color, Font-Size, Font-Family e outros
+// Padrão vs Herança: O valor padrão irá escrever por cima da herança. Por isso ao definirmos uma color no body, os <a> não mudam de cor.
+// Exemplo de código envolvendo o site Curso de HTML que estamos desenvolvendo.
+
+<h1>Curso de HTML</h1>
+<p>Curso de Design</p>
+<button>Clique</button>
+<div>Curso de CSS</div>
+<a href ="/">Curso de JavaScript</a>
