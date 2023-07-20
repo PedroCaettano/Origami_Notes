@@ -1,0 +1,39 @@
+// Existem centeas de tags e propriedade. É quase impossível você gravar todas elas. Por isso consultamos uma documentação.
+// Exemplos? Mozilla e W3C
+
+// mdn web docs| Recomendação de site
+
+//IMG: usado para adicionarmos imagens a nossa página
+//src: Atributo que define o caminho da imagem
+//alt: texto alternativo que será lido por leitores de tela(acessibilidade), robôs e que irá aparecer caso a imagem não carregue
+//Max-Width 100%: Geralmente definimos um width máximo de 100% para a imagem. assim ela não cresce além do elemento pai.
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+   <title>img</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div>
+    <img src="./img/bicicleta.jpg" alt="Bicileta preta">
+    <img src="./img/floresta.jpg" alt="floresta">
+    <img src="./img/flores.jpg" alt="flores">
+    </div>
+  </body>
+
+</html>
+
+//style.css
+img{
+max-width: 100%
+display: block;
+}
+
+div{
+width
+
+}
