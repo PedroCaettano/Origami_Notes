@@ -1,0 +1,93 @@
+// usando o código do 18:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="gird">
+<h1 class="titulo">Camisa Polo</h1>
+<span class="prexo"> R$ 39</span>
+<img src="./img/camisapolo.png" alt=" Camisa Bonita">
+<p class="decricao">Camisa polo feita de algodão com detalhes em azul cairo.</p>
+<a class="comprar" href="/">Comprar</a>
+</div>
+
+</body>
+
+</html>
+
+//código em css:
+
+.grid{
+display: grid;
+gap: 20px;
+grid-template-columns: ifr ifr ifr;
+
+}
+
+.foto{
+grid-column: 1/ -1; // -1 é mais seguro caso vc queira pegar de ponta a ponta
+
+
+}
+
+.descricao{
+grid-column: 1/3;
+
+}
+
+.comprar{
+grid-column: 1/3;
+
+}
+
+/* Estilos Gerais */
+
+body{
+font-family: Arial;
+
+}
+
+h1,
+p {
+margin: 0px;
+
+}
+
+h1{
+font-size: 48px;
+line-height: 1;
+
+}
+
+p,
+span{
+font-size: 20px;
+
+}
+
+img{
+max-width: 100%;
+border-radius: 4px;
+}
+
+.comprar{
+    background: #a8f;
+    color: #103;
+    text decoration: none;
+    border-radius: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    }
+
+.preco {
+background: #ddd;
+padding: 5px 10px;
+boder-radius: 4px;
+
+}
