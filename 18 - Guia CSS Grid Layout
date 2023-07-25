@@ -1,0 +1,104 @@
+// vai ajudar na organização do site num geral
+// css tricks.com 
+
+//alinhamento serve pra distribuir o alinhamento de linhas presentes em um projeto
+// usando os códigos presentes no 17:
+ body {
+font-family: Arial;
+display: grid;
+grid-template-coluna: ifr ifr;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.comprar{
+background: #a8f;
+color: #103;
+text decoration: none;
+border-radius: none;
+padding: 10px 20px;
+}
+
+.item{
+background: #f7f7f7;
+border: 1px solid #e7e7e7;
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 4px;
+
+}
+
+.grid{
+display: grid;
+grid-template-coluna: ifr ifr;
+gap: 20%
+justify-content: center; // vai ajudar a centralizar todos os itens, alinhar e destribuir um bom espaço nos itens
+}
+
+//ifr ele espande o item conforme o usuário for expandindo o site/navegador
+//automático: o máximo de automático é tentar fazer o máximo de conteúdo possivel caber numa página de navegador
+// exemplo de código em automático:
+.grid{
+display: grid;
+grid-template-coluna: auto auto;
+gap: 20px;
+justify-content: center;
+align-content: space-evenly;
+}
+
+// código no index:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<h1>Comercio Eletrônico</h1>
+<div class="item">
+<h2>Camisa Polo</h2>
+<p>Camisa polo feita de algodão com detalhes em azul claro</p>
+<a class="comprar" href="/">Comprar</a>
+</div>
+<div class="item">
+    <h2>Calça Azul</h2>
+    <p>Calça azul feita de algodão com detalhes em azul claro</p>
+    <a class="comprar" href="/">Comprar</a>
+    </div>
+    <div class="item">
+        <h2>Camisa verde</h2>
+        <p>Camisa verde feita de algodão com detalhes em azul claro</p>
+        <a class="comprar" href="/">Comprar</a>
+        </div>
+        <div class="item">
+            <h2>Blusa roxa</h2>
+            <p>Blusa roxa feita de algodão com detalhes em azul claro</p>
+            <a class="comprar" href="/">Comprar</a>
+            </div>
+            <div class="item">
+                <h2>Chinelo verde</h2>
+                <p>Chinelo verde bem confortável feito com os maiores amortecedores de última geração</p>
+                <a class="comprar" href="/">Comprar</a>
+                </div>
+                <div class="item">
+                    <h2>calça bege</h2>
+                    <p>.</p>
+                    <a class="comprar" href="/">Comprar</a>
+                    </div>
+                    <div class="item">
+                        <h2>boné roxo</h2>
+                        <p>.</p>
+                        <a class="comprar" href="/">Comprar</a>
+                        </div>
+</body>
+
+</html>
