@@ -1,0 +1,85 @@
+// gird - o que é? Com o display: Grid é possível definirmos colunas e linhas para organizarmos os elementos que estiveram dentro do grid
+
+//grid-template-columns: Define o total de colunas e o tamanho de cada uma.
+// fr: unidade fracionária que terá como objetivo destribuir o espaço restante entre os elementos de grid.
+// gap: cria uma distância entre os elementos do grid, tanto horizontal quanto vertical
+
+//exemplo de código: 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<h1>Comercio Eletrônico</h1>
+<div class="item">
+<h2>Camisa Polo</h2>
+<p>Camisa polo feita de algodão com detalhes em azul claro</p>
+<a class="comprar" href="/">Comprar</a>
+</div>
+<div class="item">
+    <h2>Calça Azul</h2>
+    <p>Calça azul feita de algodão com detalhes em azul claro</p>
+    <a class="comprar" href="/">Comprar</a>
+    </div>
+    <div class="item">
+        <h2>Camisa verde</h2>
+        <p>Camisa verde feita de algodão com detalhes em azul claro</p>
+        <a class="comprar" href="/">Comprar</a>
+        </div>
+        <div class="item">
+            <h2>Blusa roxa</h2>
+            <p>Blusa roxa feita de algodão com detalhes em azul claro</p>
+            <a class="comprar" href="/">Comprar</a>
+            </div>
+            <div class="item">
+                <h2>Chinelo verde</h2>
+                <p>Chinelo verde bem confortável feito com os maiores amortecedores de última geração</p>
+                <a class="comprar" href="/">Comprar</a>
+                </div>
+</body>
+
+</html>
+
+//código em css:
+
+body{
+font-family: Arial;
+display: grid;
+grid-template-coluna: ifr ifr;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.comprar{
+background: #a8f;
+color: #103;
+text decoration: none;
+border-radius: none;
+padding: 10px 20px;
+}
+
+.item{
+background: #f7f7f7;
+border: 1px solid #e7e7e7;
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 4px;
+
+}
+
+.grid{
+display: grid;
+grid-template-coluna: 45% 45%;
+gap: 200%
+}
